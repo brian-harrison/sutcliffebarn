@@ -1,0 +1,28 @@
+/*
+Fonts are setup i _app
+
+Global variables can be added here in the body
+and then used anywhere
+*/
+
+body {
+  --background-color: #8ebca9;
+  --color: black;
+
+  padding: 0;
+  margin: 0;
+  font-size: 16px;
+  /* background-color: var(--background-color); */
+  color: var(--color);
+  background-color: white;
+
+}
+
+
+
+/* 
+LOOK AT THIS LATER!
+
+@media (pointer: coarse) {
+  --min-tap-target-height: 48px;
+} */

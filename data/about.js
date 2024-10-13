@@ -1,0 +1,10 @@
+export const pageDetails = {
+  id: "p3",
+  metaTitle: "The Story of Sutcliffe Barn",
+  metaDescription: "This is a short description of our career and a synopsis of the accommodation and land at Sutcliffe Barn",
+  h1: "About Sutcliffe Barn",
+  text_1:
+    "<p>We have used our knowledge of interiors garnered from over 30 years working as freelance journalists (&nbsp;photographer&nbsp;&&nbsp;writer&nbsp;) on national and international home-interest magazines to refurbish and decorate what is essentially part of our home - albeit completely separate with its own front and back doors. &ldquo;We have tried to instil a real sense of homeliness in the décor and with every possible comfort included.&rdquo;</p><p>The ground floor accommodation is extremely stylishly appointed with a large, open-plan living/dining room at its centre. This room features Jacobean-style painted wall panelling as a stunning backdrop. Stone mullion windows, oak floors and doors lend a sense of rustic charm to the fabric of the building and yet there is every modern amenity. From a stable-door on one side and French windows on the other, there is access to wooded and landscaped gardens with long-reaching views of the surrounding countryside and a number of private areas to sit and enjoy the location. A bird feeder regularly attracts woodpeckers, jays and other garden visitors and deer and hares can often be spotted in the woods. Most years we are lucky enough to spend many a summer evening watching a barn owl hunting in the fields in front of the house!</p><p>The location is second to none for walking enthusiasts and cyclists with some amazing routes accessed directly from the property up to the nearby heather-clad grouse moors or down to Colden Water - a beautiful woodland with river running through it.</p><p>As keen walkers ourselves and being semi-retired with a lively, energetic standard poodle called Ruby as part of the family, we know most of the local footpaths and can’t wait to share them with you.</p>",
+  text_2: "",
+  text_3: "",
+};

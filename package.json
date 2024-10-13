@@ -1,0 +1,24 @@
+{
+  "name": "sutcliffebarn",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev -p 5100",
+    "build": "next build",
+    "start": "next start -p 5100",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@emotion/react": "^11.11.1",
+    "@emotion/styled": "^11.11.0",
+    "@googlemaps/js-api-loader": "^1.16.2",
+    "@plaiceholder/next": "^3.0.0",
+    "@react-google-maps/api": "^2.19.2",
+    "next": "^13.4.10",
+    "plaiceholder": "^3.0.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-icons": "^4.10.1",
+    "sharp": "^0.32.3"
+  }
+}
