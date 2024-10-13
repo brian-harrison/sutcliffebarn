@@ -16,7 +16,7 @@ const Footer = function () {
 
   let windowWidth = 0;
   useEffect(() => {
-    // windowWidth = getWidth();
+    // windowWidth = getWidth(); This is a change to test github
     setNewWidth(windowWidth);
   }, [windowWidth]);
 
