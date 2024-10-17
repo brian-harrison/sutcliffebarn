@@ -16,7 +16,7 @@ const Footer = function () {
 
   let windowWidth = 0;
   useEffect(() => {
-    // windowWidth = getWidth(); testing commit to git
+    // windowWidth = getWidth();
     setNewWidth(windowWidth);
   }, [windowWidth]);
 
