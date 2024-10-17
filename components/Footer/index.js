@@ -16,7 +16,7 @@ const Footer = function () {
 
   let windowWidth = 0;
   useEffect(() => {
-    // windowWidth = getWidth(); Testing a change on local site
+    // windowWidth = getWidth();
     setNewWidth(windowWidth);
   }, [windowWidth]);
 
