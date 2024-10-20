@@ -1,7 +1,6 @@
 import { pageDetails } from "../../../data/contact";
 import Head from "next/head";
 import { Container, DetailsContainer, Ul, H3, Li, P } from "./Styled";
-import Map from "../../GoogleMap";
 
 const { id, metaTitle, metaDescription, h1, text_1, text_2, text_3 } =
   pageDetails;
@@ -31,7 +30,6 @@ const Details = function () {
             <Li>what3words: submitted.bookshop.noodle</Li>
           </Ul>
           <P>For Bookings - We can be found on Airbnb & Vrbo</P>
-          {/* <P><Map /></P> */}
         </DetailsContainer>
       </Container>
     </>
