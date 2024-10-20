@@ -65,7 +65,12 @@ const Single = (props) => {
       params.push(`q-${quality}`);
     }
     const paramsString = params.join(",");
-    let urlEndpoint = process.env.NEXT_PUBLIC_IMAGE_KIT_ID;
+
+// The .env file seems not to be working in vercel????
+// NEXT_PUBLIC_IMAGE_KIT_ID=https://ik.imagekit.io/frykds389GK3pP/Sutcliffe_Barn
+// let urlEndpoint = process.env.NEXT_PUBLIC_IMAGE_KIT_ID;
+
+    let urlEndpoint = 'https://ik.imagekit.io/frykds389GK3pP/Sutcliffe_Barn';
     if (urlEndpoint[urlEndpoint.length - 1] === "/")
       urlEndpoint = urlEndpoint.substring(0, urlEndpoint.length - 1);
     return `${urlEndpoint}/${src}?tr=${paramsString}`;
