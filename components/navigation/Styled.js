@@ -17,10 +17,12 @@ export const Header = styled.div`
 
 export const LogoContainer = styled.div`
   width: 30%;
-  height: 50px;
+  // height: 50px;
   padding: 0 0 0 0;
-  font-family: var(--anton-condensed-font);
+  font-family: var(--font-roboto);
+  font-weight: 300;
   font-size: 2rem;
+  font-stretch: 50%;
   color: ${layout.featureColour};
 
   & a {

@@ -2,8 +2,6 @@ import { pageDetails } from "../../../data/booking";
 import Head from "next/head";
 import { Container, H1, P } from "./Styled";
 
-
-
 const { id, metaTitle, metaDescription, h1, text_1, text_2, text_3 } =
   pageDetails;
   
