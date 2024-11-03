@@ -12,6 +12,7 @@ const Details = function () {
         <title>{metaTitle}</title>
         <meta name="description" content={metaDescription} />
       </Head>
+      <hr />
       <Container>
           <H1>{h1}</H1>
           <P>{text_1}</P>
