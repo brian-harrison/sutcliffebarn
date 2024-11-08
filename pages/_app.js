@@ -1,3 +1,4 @@
+import { SpeedInsights } from '@vercel/speed-insights/next';
 import {  Montserrat, Roboto_Condensed } from 'next/font/google';
 import "../components/Layout/global.css";
 import Layout from "../components/Layout";
@@ -16,6 +17,7 @@ function App({ Component, pageProps }) {
     <main className={montserrat.className}>
       <Layout>
         <Component {...pageProps} />
+        <SpeedInsights />
       </Layout>
     </main>
   );
