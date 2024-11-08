@@ -2,8 +2,13 @@ import {  Montserrat, Roboto_Condensed } from 'next/font/google';
 import "../components/Layout/global.css";
 import Layout from "../components/Layout";
 
-export const roboto = Roboto_Condensed({ subsets: ['latin'], weight: ['variable']})
-export const montserrat = Montserrat({ subsets: ['latin'] });
+export const roboto = Roboto_Condensed({
+  subsets: ['latin'],
+  weight: ['variable']
+})
+export const montserrat = Montserrat({
+  subsets: ['latin']
+});
 
 function App({ Component, pageProps }) {
 
