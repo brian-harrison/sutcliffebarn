@@ -14,13 +14,19 @@ export const montserrat = Montserrat({
 function App({ Component, pageProps }) {
 
   return (
-    <main className={montserrat.className}>
-      <Layout>
-        <Component {...pageProps} />
-        <SpeedInsights />
-      </Layout>
-    </main>
+    <>
+      <main className={montserrat.className}>
+        <Layout>
+          <Component {...pageProps} />
+        </Layout>
+      </main>
+      <SpeedInsights />
+    </>
   );
 }
 
 export default App;
+
+
+// https://sutcliffebarn.com/_vercel/speed-insights/script.js
+// https://sutcliffebarn.com/_vercel/speed-insights/vitals
